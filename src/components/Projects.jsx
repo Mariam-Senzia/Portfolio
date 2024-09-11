@@ -5,7 +5,7 @@ const Projects = () => {
 
     const myProjects = [
         {
-            image:'/Screenshot from 2024-09-05 16-40-14.png',
+            image:'/Portfolio/Screenshot from 2024-09-05 16-40-14.png',
             title:'Safiri Africa',
             description:'Safiri Africa provides a centralized platform where travelers can access comprehensive and limited information about African travel destinations.It provides details about various African countries, including photos, maps, and currency information. This makes travel planning more accessible and engaging, particularly for those who may not be familiar with the continent.',
             live:'LIVE LINK',
@@ -23,6 +23,7 @@ const Projects = () => {
 
             {myProjects.map((project) => {
                 return <Flex key={project.title} mt={{base:'3rem',xxm:'4rem',xm:'',sm:'',xmd:'5rem',md:'',slg:'',lg:'',xl:'5rem',xxl:''}} ml={{base:'',xxm:'',xm:'',sm:'',xmd:'7rem',md:'8.5rem',slg:'-0.5rem',lg:'7rem',xl:'10.5rem',xxl:'11rem'}} flexDirection={{base:'column',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'row',lg:'',xl:'row',xxl:''}}>
+
                 <Image src={project.image} alt='image' width='450px' borderRadius='10px'/>
 
                 <Box ml={{base:'-1.5rem',xxm:'',xm:'',sm:'-0.5rem',xmd:'',md:'',slg:'8rem',lg:'9rem',xl:'10rem',xxl:'21rem'}} textAlign='left'>
