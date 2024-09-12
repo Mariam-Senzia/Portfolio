@@ -17,13 +17,12 @@ const theme = extendTheme({
     breakpoints,
     styles: {
         global: {
-            body : {
-                /* hide horizontal scrollbar  */
-                overflowX: 'hidden',        
-            },
             html: {
-                overflowX: 'hidden'
-            }
+                overflowX: 'hidden',
+                margin: 0,   
+                padding: 0,
+            },
+           
         }
     }
 });
