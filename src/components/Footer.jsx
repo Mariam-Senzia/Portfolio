@@ -5,8 +5,8 @@ import { FaEnvelope,FaLinkedin,FaGithub } from "react-icons/fa";
 const Footer = () => {
     return (
         <>
-        <Box bgColor='#0E1116' p='2rem' height={{base:'55vh',xxm:'40vh',xm:'38vh',sm:'35vh',xmd:'30vh',md:'26vh',slg:'21vh',lg:'35vh',xl:'36vh',xxl:'27vh'}}>
-            <Image src='/Portfolio/Black White Minimalist Initials Monogram Jewelry Logo.png' alt='logo' borderRadius='50px' height='70px' ml={{base:'6rem',xxm:'7rem',xm:'8rem',sm:'9rem',xmd:'19.5rem',md:'21.5rem',slg:'27.5rem',lg:'35.5rem',xl:'41.5rem',xxl:'48rem'}} mt='rem' mb='0.5rem'/>
+        <Box bgColor='#0E1116' p='2rem' height={{base:'55vh',xxm:'40vh',xm:'38vh',sm:'35vh',xmd:'30vh',md:'26vh',slg:'21vh',lg:'35vh',xl:'36vh',xxl:'27vh'}} >
+            <Image src='/Portfolio/Black White Minimalist Initials Monogram Jewelry Logo.png' alt='logo' borderRadius='50px' height='70px' ml={{base:'6rem',xxm:'7rem',xm:'8rem',sm:'9rem',xmd:'19.5rem',md:'21.5rem',slg:'27.5rem',lg:'36rem',xl:'41.5rem',xxl:'48rem'}} mt='rem' mb='0.5rem'/>
             <Text color='white' textAlign='center'>Lifelong learner.</Text>
 
             <Flex gap={{base:'4rem',xxm:'5rem',xm:'6rem',sm:'6.8rem',xmd:'',md:'',slg:'',lg:'',xl:'5rem',xxl:''}} ml={{base:'',xxm:'0.5rem',xm:'',sm:'',xmd:'11rem',md:'13rem',slg:'19.5rem',lg:'27.3rem',xl:'35rem',xxl:'41.5rem'}} mt={{base:'3rem',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'',xl:'2rem',xxl:''}}>

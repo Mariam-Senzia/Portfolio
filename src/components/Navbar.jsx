@@ -7,7 +7,7 @@ const Navbar = () => {
 
    return (
     <>
-      <Box display='flex' position='fixed' bgColor='white' mt={{base:'-4.2rem',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'',xl:'-5.1rem',xxl:''}} width='100vw' zIndex='100'>
+      <Box display='flex' position='fixed' bgColor='white' mt={{base:'-4.2rem',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'',xl:'-5.1rem',xxl:''}} width='100vw' zIndex='100' >
          <Link href='#home'>
             <Image src='/Portfolio/Black White Minimalist Initials Monogram Jewelry Logo.png' alt='logo' borderRadius='50px' height={{base:'60px',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'',xl:'70px',xxl:''}} ml={{base:'1rem',xxm:'',xm:'1.5rem',sm:'2rem',xmd:'',md:'',slg:'5rem',lg:'9rem',xl:'12.5rem',xxl:''}} mt='0.3rem' mb='0.3rem'/>
          </Link>

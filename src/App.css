@@ -3,9 +3,10 @@ html {
     scroll-behavior: smooth;
   }
 
-body {
-  /* hide horizontal scrollbar */
-  overflow-x: hidden;     
-  overflow-y: auto;
-}
+/* body { */
+  /* hide horizontal scrollbar  */
+  /* overflow-x: hidden;     
+  overflow-y: auto; 
+}  */
+
   

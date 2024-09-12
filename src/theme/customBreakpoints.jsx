@@ -13,6 +13,19 @@ const breakpoints = {
     xxl: '1680px',      // Macbook Pro
 }
 
-const theme = extendTheme({breakpoints});
+const theme = extendTheme({
+    breakpoints,
+    styles: {
+        global: {
+            body : {
+                /* hide horizontal scrollbar  */
+                overflowX: 'hidden',        
+            },
+            html: {
+                overflowX: 'hidden'
+            }
+        }
+    }
+});
 
 export default theme;

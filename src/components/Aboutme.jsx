@@ -32,7 +32,7 @@ const Aboutme = () => {
     ]
     return (
         <>
-         <Box bgColor='#FF5A5F' height={{base:'95vh',xxm:'80vh',xm:'',sm:'',xmd:'52vh',md:'',slg:'35vh',lg:'55vh',xl:'60vh',xxl:'38vh'}} p='2rem' textAlign='center' color='white' mt={{base:'rem',xxm:'rem',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'',xl:'',xxl:''}}>
+         <Box bgColor='#FF5A5F' height={{base:'95vh',xxm:'80vh',xm:'',sm:'',xmd:'52vh',md:'',slg:'35vh',lg:'55vh',xl:'60vh',xxl:'38vh'}} p='2rem' textAlign='center' color='white' mt={{base:'rem',xxm:'rem',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'',xl:'',xxl:''}} >
             <Heading>ABOUT ME</Heading>
             <Divider width={{base:'50vh',xxm:'18.5rem',xm:'20rem',sm:'21.5rem',xmd:'41.5rem',md:'45rem',slg:'',lg:'50rem',xl:'55rem',xxl:'65rem'}} ml={{base:'',xxm:'',xm:'',sm:'',xmd:'1rem',md:'',slg:'7rem',lg:'13rem',xl:'17rem',xxl:''}}/>
 

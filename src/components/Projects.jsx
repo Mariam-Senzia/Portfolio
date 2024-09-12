@@ -17,7 +17,7 @@ const Projects = () => {
 
     return (
         <>
-        <Box mt={{base:'103rem',xxm:'98rem',xm:'92rem',sm:'88rem',xmd:'85rem',md:'80rem',slg:'85rem',lg:'24.4rem',xl:'20.5rem',xxl:'24rem'}} bgColor='#F5F5F5' p='3rem' textAlign='center' height={{base:'150vh',xxm:'',xm:'',sm:'',xmd:'',md:'100vh',slg:'90vh',lg:'',xl:'90vh',xxl:''}}>
+        <Box mt={{base:'103rem',xxm:'98rem',xm:'92rem',sm:'88rem',xmd:'85rem',md:'80rem',slg:'85rem',lg:'24.4rem',xl:'20.5rem',xxl:'24rem'}} bgColor='#F5F5F5' p='3rem' textAlign='center' height={{base:'150vh',xxm:'',xm:'',sm:'',xmd:'',md:'100vh',slg:'90vh',lg:'',xl:'90vh',xxl:''}} >
             <Heading>FEATURED PROJECTS</Heading>
             <Divider borderColor='red' borderWidth='2px' mt='0.5rem' width={{base:'4rem',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'',xl:'10rem',xxl:''}} ml={{base:'5rem',xxm:'6rem',xm:'7rem',sm:'8rem',xmd:'18.5rem',md:'21rem',slg:'26rem',lg:'35rem',xl:'38rem',xxl:'44rem'}}/>
 
