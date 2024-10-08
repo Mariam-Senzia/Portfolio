@@ -9,7 +9,7 @@ const Projects = () => {
             title:'Safiri Africa',
             description:'Safiri Africa provides a centralized platform where travelers can access comprehensive and limited information about African travel destinations.It provides details about various African countries, including photos, maps, and currency information. This makes travel planning more accessible and engaging, particularly for those who may not be familiar with the continent.',
             live:'LIVE LINK',
-            liveLink:'',
+            liveLink:'https://safiri-africa-beta.vercel.app/',
             github:'GITHUB',
             githubLink: 'https://github.com/Mariam-Senzia/Safiri-Africa'
         }
@@ -31,7 +31,10 @@ const Projects = () => {
                     <Text width={{base:'18.5rem',xxm:'20rem',xm:'21.7rem',sm:'24rem',xmd:'29rem',md:'',slg:'24rem',lg:'24.5rem',xl:'27rem',xxl:''}} mt='1rem'>{project.description}</Text>
 
                     <Flex mt='1rem' ml={{base:'3rem',xxm:'',xm:'3.8rem',sm:'4.5rem',xmd:'8.5rem',md:'',slg:'0',lg:'',xl:'0',xxl:''}} >
+                        <Link href={project.liveLink}>
                         <Button bgColor='#F75E50' color='white' colorScheme='#F75E50'>{project.live}</Button>
+                        </Link>
+
                         <Link href={project.githubLink}>
                         <Button bgColor='#F75E50' ml='1rem' color='white' colorScheme='#F75E50'>{project.github}</Button>
                         </Link>
