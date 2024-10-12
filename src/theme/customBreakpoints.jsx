@@ -9,7 +9,8 @@ const breakpoints = {
     md: '820px',
     slg: '1024px',      // laptops
     lg: '1280px',       // Macbook air
-    xl: '1440px',       // Dell
+    xl: '1440px',       // 
+    dm: '1500px',       // Dell
     xxl: '1680px',      // Macbook Pro
 }
 

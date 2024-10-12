@@ -25,7 +25,7 @@ const Homepage = () => {
                     </Link>
                 </Box>
 
-            <Box>
+            <Box ml={{dm:'6.5vw'}}>
                 <Heading ml={{base:'-2rem',xxm:'-2.1rem',xm:'-1.5rem',sm:'-2.5rem',xmd:'3.5rem',md:'4.5rem',slg:'12rem',lg:'20rem',xl:'26.5rem',xxl:'30rem'}} size={{base:'lg',xxm:'lg',xm:'lg',sm:'xl',xmd:'2xl',md:'2xl',slg:'2xl',lg:'2xl',xl:'2xl',xxl:'3xl'}} width={{base:'100vw',xxm:'102vw',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'',xl:'',xxl:''}}>HI, I'M MARIAM SENZIA</Heading>
 
                 <Text ml={{base:'-2rem',xxm:'',xm:'-1rem',sm:'',xmd:'5rem',md:'6rem',slg:'13.5rem',lg:'21rem',xl:'20.5rem',xxl:'25rem'}} width={{base:'18rem',xxm:'20rem',xm:'',sm:'21.7rem',xmd:'30rem',md:'',slg:'rem',lg:'32rem',xl:'45rem',xxl:''}} textAlign='center' fontSize='lg' mt='1rem'>A passionate Full Stack Developer and DevOps Engineer committed to driving innovation through technology and delivering efficient, scalable solutions.</Text>
