@@ -1,13 +1,13 @@
 # Mariam Senzia's Portfolio
 
 ## Description
-This portfolio showcases my skills, projects, and experience as a web developer. It includes various projects built using React, Flask, and other technologies. More projects will be added over time as I continue to expand my work.
+This portfolio showcases my skills, projects, and experience as a web developer. It features a variety of projects built with technologies like React, Flask, and the MERN stack. As I continue to grow and expand my expertise, I will regularly update the portfolio with new projects.
 
 ## Features
-- Responsive design
-- Project showcase with detailed descriptions
-- Live and Github links
-- Contact details
+- Responsive Design: Optimized for various devices and screen sizes.
+- Project Showcase: Includes detailed descriptions of projects.
+- Live and GitHub Links: Easy access to project demos and source code.
+- Contact Details: Reach out directly for collaboration or inquiries.
 
 ## Installation & Setup
 To run this project locally:
