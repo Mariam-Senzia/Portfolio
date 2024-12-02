@@ -30,7 +30,7 @@ const Homepage = () => {
 
                 <Text ml={{base:'-2rem',xxm:'',xm:'-1rem',sm:'',xmd:'5rem',md:'6rem',slg:'13.5rem',lg:'21rem',xl:'20.5rem',xxl:'25rem'}} width={{base:'18rem',xxm:'20rem',xm:'',sm:'21.7rem',xmd:'30rem',md:'',slg:'rem',lg:'32rem',xl:'45rem',xxl:''}} textAlign='center' fontSize='lg' mt='1rem'>A passionate Full Stack Developer and DevOps Engineer committed to driving innovation through technology and delivering efficient, scalable solutions.</Text>
 
-                <Image src='https://cdn.pixabay.com/photo/2024/05/20/13/28/ai-generated-8775232_1280.png' alt='coding' height={{base:'',xxm:'',xm:'55vh',sm:'',xmd:'60vh',md:'65vh',slg:'',lg:'56vh',xl:'58vh',xxl:'65vh'}} width={{base:'',xxm:'',xm:'',sm:'',xmd:'',md:'60vh',slg:'',lg:'50vw',xl:'105vh',xxl:''}}  ml={{base:'-2rem',xxm:'-2.2rem',xm:'-2.4rem',sm:'-2rem',xmd:'3rem',md:'2rem',slg:'3rem',lg:'17rem',xl:'18.5rem',xxl:'14rem'}} mt={{base:'1rem',xxm:'',xm:'',sm:'3rem',xmd:'4rem',md:'',slg:'8rem',lg:'3rem',xl:'3rem',xxl:''}} borderRadius='100px'/>
+                <Image src='https://cdn.pixabay.com/photo/2024/05/20/13/28/ai-generated-8775232_1280.png' alt='coding' height={{base:'',xxm:'',xm:'55vh',sm:'',xmd:'60vh',md:'65vh',slg:'',lg:'56vh',xl:'58vh',xxl:'65vh'}} width={{base:'',xxm:'',xm:'',sm:'',xmd:'',md:'60vh',slg:'',lg:'50vw',xl:'105vh',xxl:''}}  ml={{base:'-2rem',xxm:'-2.2rem',xm:'-2.4rem',sm:'-2rem',xmd:'3rem',md:'2rem',slg:'3rem',lg:'17rem',xl:'14rem',xxl:'14rem'}} mt={{base:'1rem',xxm:'',xm:'',sm:'3rem',xmd:'4rem',md:'',slg:'8rem',lg:'3rem',xl:'3rem',xxl:''}} borderRadius='100px'/>
             </Box>
 
             </Flex>
