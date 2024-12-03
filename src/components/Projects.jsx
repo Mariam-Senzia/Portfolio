@@ -18,7 +18,7 @@ const Projects = () => {
             title:'BlogNest',
             description:'BlogNest is a blog platform where users can view blogs, filter them by category, and publish their own after signing in. Built with the MERN stack (MongoDB, Express, React, Node.js), it demonstrates my skills in full-stack development.',
             live:'LIVE LINK',
-            liveLink:'',
+            liveLink:'https://blog-nest-xi.vercel.app/',
             github:'GITHUB',
             githubLink: 'https://github.com/Mariam-Senzia/BlogNest'
         }
