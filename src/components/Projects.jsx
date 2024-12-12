@@ -5,15 +5,6 @@ const Projects = () => {
 
     const myProjects = [
         {
-            image:'/Portfolio/Screenshot from 2024-09-05 16-40-14.png',
-            title:'Safiri Africa',
-            description:'Safiri Africa provides a centralized platform where travelers can access comprehensive and unlimited information about African travel destinations.It provides details about various African countries, including photos, maps, and currency information. This makes travel planning more accessible and engaging, particularly for those who may not be familiar with the continent.',
-            live:'LIVE LINK',
-            liveLink:'https://safiri-africa-beta.vercel.app/',
-            github:'GITHUB',
-            githubLink: 'https://github.com/Mariam-Senzia/Safiri-Africa'
-        },
-        {
             image:'/Portfolio/Screenshot from 2024-11-30 20-11-26.png',
             title:'BlogNest',
             description:'BlogNest is a blog platform where users can view blogs, filter them by category, and publish their own after signing in. Built with the MERN stack (MongoDB, Express, React, Node.js), it demonstrates my skills in full-stack development.',
@@ -21,6 +12,15 @@ const Projects = () => {
             liveLink:'https://blog-nest-xi.vercel.app/',
             github:'GITHUB',
             githubLink: 'https://github.com/Mariam-Senzia/BlogNest'
+        },
+        {
+            image:'/Portfolio/Screenshot from 2024-09-05 16-40-14.png',
+            title:'Safiri Africa',
+            description:'Safiri Africa provides a centralized platform where travelers can access comprehensive and unlimited information about African travel destinations.It provides details about various African countries, including photos, maps, and currency information. This makes travel planning more accessible and engaging, particularly for those who may not be familiar with the continent.',
+            live:'LIVE LINK',
+            liveLink:'https://safiri-africa-beta.vercel.app/',
+            github:'GITHUB',
+            githubLink: 'https://github.com/Mariam-Senzia/Safiri-Africa'
         }
     ]
 
