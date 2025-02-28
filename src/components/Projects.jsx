@@ -1,4 +1,3 @@
-import React from "react";
 import { Heading,Box,Flex,Image,Button,Text,Divider,Link } from "@chakra-ui/react";
 
 const Projects = () => {

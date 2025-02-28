@@ -1,5 +1,4 @@
-import React from "react";
-import { Heading,Text,Box,Divider,Grid, Card, CardHeader, CardBody,Image ,Stack, UnorderedList,ListItem} from "@chakra-ui/react";
+import { Heading,Text,Box,Divider,Grid, Card, CardBody,Stack, UnorderedList,ListItem} from "@chakra-ui/react";
 
 const Aboutme = () => {
     const skills = [
@@ -7,18 +6,18 @@ const Aboutme = () => {
             title:'FrontEnd Developer',
             description:'I create responsive, user-friendly interfaces that prioritize seamless interaction and performance.',
             subtitle:'Languages :',
-            languages:'JavaScript,HTML,CSS',
+            languages:'JavaScript, HTML, CSS',
             devtools:'Dev Tools :',
-            tools: ['React','Git','Github','Chakra UI','Zustand','Responsive Design','Vercel']
+            tools: ['React','Zustand','Chakra UI','Tailwind CSS','Git & Github','Responsive Design','Vercel']
         },
         {
             image:'',
             title:'BackEnd Developer',
             description:'I build scalable, secure backend systems that power efficient data management and smooth user experiences.',
             subtitle:'Languages :',
-            languages:'Python',
+            languages:'Python, JavaScript', 
             devtools:'Dev Tools :',
-            tools:['Flask','PostgreSQL','SQLite','APIs','JWT','OOP','Render']
+            tools:['Flask','Node.js','Express.js','PostgreSQL, SQLite, MongoDB','Render']
         },
         {
             image:'',
@@ -27,7 +26,7 @@ const Aboutme = () => {
             subtitle:'',
             languages:'',
             devtools:'Dev Tools :',
-            tools:['Docker','Kubernetes','Jenkins','Ansible','AWS','GCP','Agile methodologies']
+            tools:['Docker','Kubernetes','CI/CD (Jenkins, GitHub Actions)','Infrastructure as Code (Ansible)','Cloud Platforms (AWS, GCP)','Agile & Scalable Deployments']
         }
     ]
     return (
@@ -37,9 +36,9 @@ const Aboutme = () => {
             <Divider width={{base:'50vh',xxm:'18.5rem',xm:'20rem',sm:'21.5rem',xmd:'41.5rem',md:'45rem',slg:'',lg:'50rem',xl:'55rem',xxl:'65rem'}} ml={{base:'',xxm:'',xm:'',sm:'',xmd:'1rem',md:'',slg:'7rem',lg:'13rem',xl:'17rem',dm:'22.8rem',xxl:''}}/>
 
             <Box ml={{dm:'6.8rem'}}>
-            <Text width={{base:'',xxm:'18rem',xm:'20rem',sm:'21.5rem',xmd:'40rem',md:'43rem',slg:'',lg:'',xl:'55rem',xxl:''}} ml={{base:'',xxm:'',xm:'',sm:'',xmd:'2rem',md:'',slg:'8rem',lg:'16rem',xl:'17rem',xxl:'21rem'}} mt='1rem'>I focus on creating seamless user experiences on the frontend and building scalable, efficient systems on the backend. I'm always eager to learn,collaborate and thrive on tackling new challenges and driving continuous improvement.</Text>
+            <Text width={{base:'',xxm:'18rem',xm:'20rem',sm:'21.5rem',xmd:'40rem',md:'43rem',slg:'',lg:'',xl:'55rem',xxl:''}} ml={{base:'',xxm:'',xm:'',sm:'',xmd:'2rem',md:'',slg:'8rem',lg:'16rem',xl:'17rem',xxl:'21rem'}} mt='1rem'>{"I focus on creating seamless user experiences on the frontend and building scalable, efficient systems on the backend. I'm always eager to learn,collaborate and thrive on tackling new challenges and driving continuous improvement."}</Text>
 
-            <Text width={{base:'',xxm:'',xm:'',sm:'',xmd:'36rem',md:'',slg:'',lg:'',xl:'50rem',xxl:''}} ml={{base:'',xxm:'',xm:'',sm:'',xmd:'4rem',md:'5rem',slg:'11rem',lg:'19rem',xl:'19.5rem',xxl:'23.5rem'}}>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills then don't hesitate to contact me.</Text>
+            <Text width={{base:'',xxm:'',xm:'',sm:'',xmd:'36rem',md:'',slg:'',lg:'',xl:'50rem',xxl:''}} ml={{base:'',xxm:'',xm:'',sm:'',xmd:'4rem',md:'5rem',slg:'11rem',lg:'19rem',xl:'19.5rem',xxl:'23.5rem'}}>{"I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills then don't hesitate to contact me."}</Text>
             </Box>
 
             <Grid templateColumns={{base:'repeat(1,1fr)',xxm:'',xm:'',sm:'',xmd:'repeat(1,1fr)',md:'',slg:'',lg:'repeat(3,1fr)',xl:'repeat(3,1fr)',xxl:''}} gap={{base:'3',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'0',xl:'0',xxl:''}} width={{base:'',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'40rem',xl:'40rem',xxl:'rem'}} ml={{base:'-0.5rem',xxm:'0.8rem',xm:'0.6rem',sm:'0.8rem',xmd:'7rem',md:'8.6rem',slg:'14.5rem',lg:'7.5rem',xl:'11rem',dm:'16rem',xxl:''}} mt='2rem'>
