@@ -4,6 +4,15 @@ const Projects = () => {
 
     const myProjects = [
         {
+            image:'/Portfolio/Screenshot from 2025-05-18 12-41-59.png',
+            title:'DukaNext',
+            description:'An eCommerce platform that enables shop owners to create, customize, and manage their own online stores. Built using the MERN stack, where I contributed by developing new features, enhancing existing functionality, and improving the overall user experience.',
+            live:'LIVE LINK',
+            liveLink:'https://dukanext.co.ke/',
+            github:'GITHUB',
+            githubLink: 'https://github.com/aknjoroge/vastly-ecommerce-dashboard'
+        },
+        {
             image:'/Portfolio/Screenshot from 2024-11-30 20-11-26.png',
             title:'BlogNest',
             description:'BlogNest is a blog platform where users can view blogs, filter them by category, and publish their own after signing in. Built with the MERN stack (MongoDB, Express, React, Node.js), it demonstrates my skills in full-stack development.',
@@ -39,11 +48,11 @@ const Projects = () => {
                     <Text width={{base:'14rem',xxm:'15rem',xm:'17rem',sm:'18rem',xmd:'35rem',md:'',slg:'24rem',lg:'29.5rem',dm:'',xl:'27rem',xxl:'33rem'}} ml={{dm:'2.5rem'}} mt='1rem'>{project.description}</Text>
 
                     <Flex mt='1rem' ml={{base:'rem',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'0',lg:'',xl:'0',xxl:''}} >
-                        <Link href={project.liveLink}>
+                        <Link href={project.liveLink} target='_blank'>
                         <Button bgColor='#F75E50' color='white' colorScheme='#F75E50' ml={{dm:'2.5rem'}}>{project.live}</Button>
                         </Link>
 
-                        <Link href={project.githubLink}>
+                        <Link href={project.githubLink} target='_blank'>
                         <Button bgColor='#F75E50' ml='1rem' color='white' colorScheme='#F75E50'>{project.github}</Button>
                         </Link>
                     </Flex>
