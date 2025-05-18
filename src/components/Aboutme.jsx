@@ -6,12 +6,11 @@ const Aboutme = () => {
             title:'FrontEnd Developer',
             description:'I create responsive, user-friendly interfaces that prioritize seamless interaction and performance.',
             subtitle:'Languages :',
-            languages:'JavaScript, HTML, CSS',
+            languages:'JavaScript, TypeScript, HTML, CSS',
             devtools:'Dev Tools :',
-            tools: ['React','Zustand','Chakra UI','Tailwind CSS','Git & Github','Responsive Design','Vercel']
+            tools: ['React','Next','Zustand','Chakra UI','Tailwind CSS','Git & Github','Responsive Design','Vercel']
         },
         {
-            image:'',
             title:'BackEnd Developer',
             description:'I build scalable, secure backend systems that power efficient data management and smooth user experiences.',
             subtitle:'Languages :',
@@ -20,7 +19,14 @@ const Aboutme = () => {
             tools:['Flask','Node.js','Express.js','PostgreSQL, SQLite, MongoDB','Render']
         },
         {
-            image:'',
+            title: 'CMS & Web Platforms',
+            description: 'I build and customize websites using content management systems, ensuring flexibility, responsiveness, and user-friendly design.',
+            languages: '',
+            devtools: 'Tools & Platforms:',
+            subtitle: '',
+            tools: ['WordPress', 'Elementor', 'Salient', 'cPanel', 'SEO Optimization', 'Site Deployment']
+        },
+        {
             title:'DevOps',
             description:'I streamline development and operations through automation, continuous integration, and scalable deployment.',
             subtitle:'',
@@ -37,13 +43,11 @@ const Aboutme = () => {
 
             <Box ml={{dm:'6.8rem'}}>
             <Text width={{base:'',xxm:'18rem',xm:'20rem',sm:'21.5rem',xmd:'40rem',md:'43rem',slg:'',lg:'',xl:'55rem',xxl:''}} ml={{base:'',xxm:'',xm:'',sm:'',xmd:'2rem',md:'',slg:'8rem',lg:'16rem',xl:'17rem',xxl:'21rem'}} mt='1rem'>{"I focus on creating seamless user experiences on the frontend and building scalable, efficient systems on the backend. I'm always eager to learn,collaborate and thrive on tackling new challenges and driving continuous improvement."}</Text>
-
-            <Text width={{base:'',xxm:'',xm:'',sm:'',xmd:'36rem',md:'',slg:'',lg:'',xl:'50rem',xxl:''}} ml={{base:'',xxm:'',xm:'',sm:'',xmd:'4rem',md:'5rem',slg:'11rem',lg:'19rem',xl:'19.5rem',xxl:'23.5rem'}}>{"I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills then don't hesitate to contact me."}</Text>
             </Box>
 
-            <Grid templateColumns={{base:'repeat(1,1fr)',xxm:'',xm:'',sm:'',xmd:'repeat(1,1fr)',md:'',slg:'',lg:'repeat(3,1fr)',xl:'repeat(3,1fr)',xxl:''}} gap={{base:'3',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'0',xl:'0',xxl:''}} width={{base:'',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'40rem',xl:'40rem',xxl:'rem'}} ml={{base:'-0.5rem',xxm:'0.8rem',xm:'0.6rem',sm:'0.8rem',xmd:'7rem',md:'8.6rem',slg:'14.5rem',lg:'7.5rem',xl:'11rem',dm:'16rem',xxl:''}} mt='2rem'>
+            <Grid templateColumns={{base:'repeat(1,1fr)',xxm:'',xm:'',sm:'',xmd:'repeat(1,1fr)',md:'',slg:'repeat(2,1fr)',lg:'repeat(2,1fr)',xl:'repeat(4,1fr)',xxl:'repeat(4,1fr)'}} gap={{base:'3',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'',xl:'0',xxl:''}} width={{base:'',xxm:'',xm:'',sm:'',xmd:'',md:'',slg:'',lg:'40rem',xl:'40rem',xxl:''}} ml={{base:'-0.5rem',xxm:'0.8rem',xm:'0.6rem',sm:'0.8rem',xmd:'7rem',md:'8.6rem',slg:'-0.8rem',lg:'7.5rem',xl:'-1.7rem',dm:'0.4rem',xxl:'2.5rem'}} mt='2rem'>
             {skills.map((skill) => {
-                return <Card maxW='' width={{base:'17rem',xxm:'',xm:'19rem',sm:'20.5rem',xmd:'30rem',md:'',slg:'',lg:'20.7rem',xl:'22.1rem',xxl:'26.2rem'}}borderWidth='2px' borderColor='' key={skill.title}>
+                return <Card maxW='' width={{base:'17rem',xxm:'',xm:'19rem',sm:'20.5rem',xmd:'30rem',md:'',slg:'',lg:'30rem',xl:'22.1rem',xxl:'26.2rem'}} borderWidth='2px' borderColor='' key={skill.title}>
                 <CardBody>
                   <Stack mt='6' spacing='3'>
                     <Heading size='md' mt='-1.5rem'>{skill.title}</Heading>
