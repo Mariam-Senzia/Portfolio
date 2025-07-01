@@ -143,7 +143,7 @@ const Homepage = () => {
 
             <Button
               as="a"
-              href="/Portfolio/public/Mariam Senzia Resume.pdf"
+              href="/Portfolio/Mariam Senzia Resume.pdf"
               download
               variant="outline"
               backgroundColor="#FF474E"
@@ -165,7 +165,7 @@ const Homepage = () => {
           mt={{ lg: "3rem", xl: "4.5rem" }}
         >
           <Image
-            src="/Portfolio/public/girl-code-removebg-preview.png"
+            src="/Portfolio/girl-code-removebg-preview.png"
             alt="coding"
             height={{ xl: "65vh" }}
             ml={{ xmd: "auto", lg: "0" }}
