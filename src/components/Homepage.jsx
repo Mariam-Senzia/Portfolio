@@ -126,14 +126,11 @@ const Homepage = () => {
           >
             <Link href="#projects" display={{ base: "none", xmd: "block" }}>
               <Button
-                variant="outline"
                 backgroundColor="#FF474E"
-                colorScheme="#FF474E"
                 color="white"
                 _hover={{
-                  backgroundColor: "white",
-                  color: "#FF474E",
-                  borderColor: "#FF474E",
+                  backgroundColor: "#c1272d",
+                  color: "white",
                 }}
                 size="lg"
               >
@@ -146,12 +143,12 @@ const Homepage = () => {
               href="/Portfolio/Mariam Senzia Resume.pdf"
               download
               variant="outline"
-              backgroundColor="#FF474E"
-              colorScheme="#FF474E"
-              color="white"
+              backgroundColor="white"
+              borderColor='#FF474E'
+              color="#FF474E"
               _hover={{
-                backgroundColor: "white",
-                color: "#FF474E",
+                backgroundColor: "#FF474E",
+                color: "white",
                 borderColor: "#FF474E",
               }}
               size="lg"
